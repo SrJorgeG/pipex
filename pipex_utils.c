@@ -6,7 +6,7 @@
 /*   By: jgomez-d <jgomez-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 06:44:25 by jgomez-d          #+#    #+#             */
-/*   Updated: 2025/04/14 09:07:59 by jgomez-d         ###   ########.fr       */
+/*   Updated: 2025/04/16 06:18:05 by jgomez-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,4 +66,3 @@ char	*get_path(char *cmd, char **env)
 	}
 	return (ft_free_split(path_env), cmd);
 }
-
